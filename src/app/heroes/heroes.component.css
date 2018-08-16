@@ -87,4 +87,18 @@ button.delete {
 div {
   text-align: center;
   background-color: lightblue;
+  font-size: 1.1em;
+}
+
+.heroAddBox {
+  text-align: center;
+  background-color: lightsalmon;
+  font-size: 2em;
+  vertical-align: center;
+}
+
+.heroAddBox input{
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1.0em;
 }
