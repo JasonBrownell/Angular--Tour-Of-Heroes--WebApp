@@ -38,7 +38,7 @@ ul {
   position: relative;
   display: block;
   width: 250px;
-  text-align: center;
+  text-align: left;
 }
 
 .heroes a:hover {
@@ -70,10 +70,12 @@ button {
   cursor: pointer;
   cursor: hand;
   font-family: Arial;
+  font-style: italic;
 }
 
 button:hover {
   background-color: #cfd8dc;
+  font-style: italic;
 }
 
 button.delete {
@@ -82,6 +84,7 @@ button.delete {
   top: -32px;
   background-color: gray !important;
   color: white;
+  font-style: italic;
 }
 
 div {

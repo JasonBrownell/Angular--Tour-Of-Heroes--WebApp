@@ -20,16 +20,32 @@ button.clear {
   border-radius: 4px;
   cursor: pointer;
   cursor: hand;
+  font-style: italic;
 }
 button:hover {
   background-color: #cfd8dc;
+  font-style: italic;
 }
 button:disabled {
   background-color: #eee;
   color: #aaa;
   cursor: auto;
+  font-style: italic;
 }
 button.clear {
-  color: #888;
+  color: black;
+  background-color: lightcoral;
   margin-bottom: 12px;
+  font-style: italic;
+}
+
+button.clear:hover {
+  color: black;
+  background-color: coral;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+div {
+  background-color: darkgray;
 }
